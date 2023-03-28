@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-28T12:11:15Z" name="Default suite" finished-at="2023-03-28T12:14:06Z" duration-ms="170846">
+    <groups>
+    </groups>
+    <test started-at="2023-03-28T12:11:15Z" name="Default test" finished-at="2023-03-28T12:14:06Z" duration-ms="170846">
+      <class name="org.karthikkumar.Day2">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:11:15Z" name="beforeclass" finished-at="2023-03-28T12:11:22Z" duration-ms="6629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:11:22Z" name="beforeMethod" finished-at="2023-03-28T12:11:22Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:11:22Z" name="test1" finished-at="2023-03-28T12:11:30Z" duration-ms="7568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:11:30Z" name="aftermethod" finished-at="2023-03-28T12:11:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:11:30Z" name="beforeMethod" finished-at="2023-03-28T12:11:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test10()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:11:30Z" name="test10" finished-at="2023-03-28T12:11:39Z" duration-ms="9171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test10 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:11:39Z" name="beforeMethod" finished-at="2023-03-28T12:11:39Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:11:39Z" name="aftermethod" finished-at="2023-03-28T12:11:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="test2()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:11:39Z" name="test2" finished-at="2023-03-28T12:11:57Z" duration-ms="18201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:11:57Z" name="aftermethod" finished-at="2023-03-28T12:11:57Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="test3()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:11:57Z" name="test3" finished-at="2023-03-28T12:12:06Z" duration-ms="9265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:11:57Z" name="beforeMethod" finished-at="2023-03-28T12:11:57Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:12:06Z" name="aftermethod" finished-at="2023-03-28T12:12:06Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="test4()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:12:06Z" name="test4" finished-at="2023-03-28T12:12:43Z" duration-ms="36527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:12:06Z" name="beforeMethod" finished-at="2023-03-28T12:12:06Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:12:43Z" name="aftermethod" finished-at="2023-03-28T12:12:43Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:12:43Z" name="beforeMethod" finished-at="2023-03-28T12:12:43Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test5()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:12:43Z" name="test5" finished-at="2023-03-28T12:12:49Z" duration-ms="6180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:12:49Z" name="aftermethod" finished-at="2023-03-28T12:12:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:12:49Z" name="beforeMethod" finished-at="2023-03-28T12:12:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test6()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:12:49Z" name="test6" finished-at="2023-03-28T12:13:04Z" duration-ms="15230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:13:04Z" name="aftermethod" finished-at="2023-03-28T12:13:04Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:13:04Z" name="beforeMethod" finished-at="2023-03-28T12:13:04Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test7()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:13:04Z" name="test7" finished-at="2023-03-28T12:13:10Z" duration-ms="5994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:13:10Z" name="aftermethod" finished-at="2023-03-28T12:13:10Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:13:10Z" name="beforeMethod" finished-at="2023-03-28T12:13:10Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test8()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:13:10Z" name="test8" finished-at="2023-03-28T12:13:35Z" duration-ms="25051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test8 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:13:35Z" name="aftermethod" finished-at="2023-03-28T12:13:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="test9()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:13:35Z" name="test9" finished-at="2023-03-28T12:14:03Z" duration-ms="28091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test9 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:13:35Z" name="beforeMethod" finished-at="2023-03-28T12:13:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:14:03Z" name="aftermethod" finished-at="2023-03-28T12:14:03Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:org.karthikkumar.Day2@6bc407fd]" started-at="2023-03-28T12:14:03Z" name="afterClass" finished-at="2023-03-28T12:14:06Z" duration-ms="2798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- org.karthikkumar.Day2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
