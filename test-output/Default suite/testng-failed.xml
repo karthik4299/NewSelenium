@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.karthikkumar.Day2">
+      <class name="org.nisanth.URL">
         <methods>
-          <include name="aftermethod"/>
-          <include name="afterClass"/>
-          <include name="test9"/>
-          <include name="beforeclass"/>
-          <include name="beforeMethod"/>
+          <include name="test7"/>
+          <include name="brow"/>
+          <include name="aft"/>
         </methods>
-      </class> <!-- org.karthikkumar.Day2 -->
+      </class> <!-- org.nisanth.URL -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
