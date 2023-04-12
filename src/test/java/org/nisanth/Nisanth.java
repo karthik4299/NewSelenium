@@ -26,6 +26,10 @@ public class Nisanth extends BaseClasss {
 		WebElement search = driver.findElement(By.name("q"));
 		sendkeys(search, "iphone14");
 		robotEnter();
+
+	}
+
+	private void pages() {
 		Map<String, String> m = new TreeMap<String, String>();
 		List<WebElement> page1 = driver.findElements(By.xpath("//div[@class='_2kHMtA']"));
 		for (int i = 1; i < page1.size(); i++) {
@@ -38,9 +42,11 @@ public class Nisanth extends BaseClasss {
 				// System.out.println(" price = "+text2);
 				m.put(text2    +   j, text   +   i);
 				 System.out.println(text + " ---> Prize = " + text2);
+			} 
+				 WebElement next = driver.findElement(By.xpath("//span[text()='Next']"));
+				 next.click();
 				 
 			}
-		}
 		
 	
 		
@@ -50,18 +56,18 @@ public class Nisanth extends BaseClasss {
 			System.out.println();
 		}
 		Set<String> price = m.keySet();
-//		for (String x : price) {
-		for(int i=0;i<price.size();i++) {
-			
+		for (String x : price) {
+		for(int i1=0;i1<price.size();i1++) {
+		
 			//if(price.remove(o)){
-				  price.replace(",", "");
+//				  price.replace(",", "");
 			
-			if(x.contains("₹")) {
-				 x = x.replace("₹", "");
-				
-//				System.out.println(x);
-			
-				int q = Integer.parseInt(x);
+//			if(x.contains("₹")) {
+//				 x = x.replace("₹", "");
+//				
+////				System.out.println(x);
+//			
+//				int q = Integer.parseInt(x);
 //				System.out.println(q);
 				
 				List<Integer> l=new LinkedList<>();
@@ -76,7 +82,7 @@ public class Nisanth extends BaseClasss {
 			
 				
 			}
-		}
+		
 			
 			
 			
