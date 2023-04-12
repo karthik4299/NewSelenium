@@ -323,8 +323,7 @@ public class BaseClasss {
 		TakesScreenshot tk = (TakesScreenshot) driver;
 		File screenshotAs = e.getScreenshotAs(OutputType.FILE);
 		long time = System.currentTimeMillis();
-		File f = new File(
-				"C:\\Users\\KARTHIK KUMAR K\\eclipse-workspace\\MavenProject\\Screenshot\\" + value + time + ".png");
+		File f = new File("C:\\Users\\KARTHIK KUMAR K\\eclipse-workspace\\MavenProject\\Screenshot\\" + value + time + ".png");
 		FileUtils.copyFile(screenshotAs, f);
 		return f;
 	}
