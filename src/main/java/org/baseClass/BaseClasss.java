@@ -6,11 +6,19 @@ import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.DateUtil;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -409,29 +417,28 @@ public class BaseClasss {
 
 	public static String getExcel(String filename, String sheet, int row, int c) throws IOException {
 
-		File f = new File("C:\\Users\\KARTHIK KUMAR K\\eclipse-workspace\\MavenProject\\src\\test\\resources\\"
-				+ filename + ".xlsx");
+		File f = new File("C:\\Users\\KARTHIK KUMAR K\\eclipse-workspace\\MavenProject\\src\\test\\resources\\"+ filename + ".xlsx");
 		FileInputStream fi = new FileInputStream(f);
-		// Workbook w = new XSSFWorkbook(fi);
-		// Sheet s = w.getSheet(sheet);
-		// Row r = s.getRow(row);
-		// Cell cell = r.getCell(c);
-		// int cellType = cell.getCellType();
-		// String value;
-		// if (cellType == 1) {
-		// value = cell.getStringCellValue();
-		// } else {
-		// if (DateUtil.isCellDateFormatted(cell)) {
-		// Date dc = cell.getDateCellValue();
-		// SimpleDateFormat sd = new SimpleDateFormat("d-MM-yy");
-		// value = sd.format(dc);
-		// } else {
-		// double nv = cell.getNumericCellValue();
-		// long l = (long) nv;
-		// value = String.valueOf(l);
-		//
-		// }
-		// }
+		 Workbook w = new XSSFWorkbook(fi);
+		 Sheet s = w.getSheet(sheet);
+		 Row r = s.getRow(row);
+		 Cell cell = r.getCell(c);
+		 int cellType = cell.getCellType();
+		 String value;
+		 if (cellType == 1) {
+		 value = cell.getStringCellValue();
+		 } else {
+		 if (DateUtil.isCellDateFormatted(cell)) {
+		 Date dc = cell.getDateCellValue();
+		 SimpleDateFormat sd = new SimpleDateFormat("d-MM-yy");
+		 value = sd.format(dc);
+		 } else {
+		 double nv = cell.getNumericCellValue();
+		 long l = (long) nv;
+		 value = String.valueOf(l);
+		
+		 }
+		 }
 		return sheet;
 
 	}
